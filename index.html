@@ -62,13 +62,18 @@
                     <label for="gender">Perempuan<input type="radio" id="perempuan" name="perempuan"><br></td>
             </tr>
             <tr>
-                <td><label for="jenjang">Pendidikan Terakhir:<br>
-                    <label for="jenjang">SD<input type="checkbox" id="sd" name="sd">
-                    <label for="jenjang">SMP<input type="checkbox" id="smp" name="smp">
-                    <label for="jenjang">SMA / SMK<input type="checkbox" id="sma" name="sma">
-                    <label for="jenjang">KULIAH<input type="checkbox" id="kuliah" name="kuliah"><br></td>
+                <td>Pendidikan Terakhir<br>
+                <select name="cara_ketahui">
+                    <option value="sd">SD</option>
+                    <option value="smp">SMP</option>
+                    <option value="sma">SMA / SMK</option>
+                    <option value="kuliah">KULIAH</option>
+                </select><br>
+            </tr>
             <tr>
-                <td><input type="submit" value="Kirim Bang!"></td>
+                <td><input type="checkbox" name="agree" value="yes"> Saya sudah membaca, mengerti dan bersedia menaati semua peraturan<br>
+            <tr>
+                <td><input type="submit" value="Kirim Coy!"></td>
             </tr>
         </form>
         </table>

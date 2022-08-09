@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <link rel="shortcut icon" href="images/logo.jpg">
+        <title>Formulir</title>
+        <meta charset="utf-8">
+        <style type="text/css">
+            body {font-family: Arial; }
+            body {color: white; }
+
+            {
+
+            }
+            input[type=text], input[type=email], input[type=password] {
+                margin: 5px auto;
+                width: 100%;
+                padding: 2px;
+            }
+            input[type=submit] {
+                margin 5px auto;
+                float: right;
+                padding: 5px;
+                width: 100px;
+                border: 1px solid #fff;
+                color: #fff;
+                background: red;
+                cursor: pointer;
+            }
+                body{
+                background: url(images/an.jpg) no-repeat scroll;
+                background-size: 100% 100%;
+                position: relative;
+                overflow: hidden;
+                min-height: 700px;
+}
+        </style>
+    </head>
+    <body>
+        <div align="center" class="tengah">
+        <form>
+        <table border="2">
+            <tr>
+                <td><label for="nama">Nama Lengkap<input type="text" id="nama" name="nama"><br></td>
+            </tr>
+            <tr>
+                <td><label for="alamat">Alamat<input type="text" id="alamat" name="alamat"><br></td>
+            </tr>
+            <tr>
+                <td><label for="telp">No. Telepon<input type="text" id="telp" name="telp"><br></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email<input type="email" id="email" name="email"><br></td>
+            </tr>
+            <tr>
+                <td><label for="birthday">Tanggal Lahir <input type="date" id="birthday" name="birthday"><br></td>
+            </tr>
+            <tr>
+                <td><label for="myfile">Foto Ijazah<br>
+                <input type="file" id="myfile" name="myfile"><br></td>
+            <tr>
+                <td><label for="gender">Jenis Kelamin:<br>
+                    <label for="gender">Laki-Laki<input type="radio" id="lakilaki" name="lakilaki">
+                    <label for="gender">Perempuan<input type="radio" id="perempuan" name="perempuan"><br></td>
+            </tr>
+            <tr>
+                <td><label for="jenjang">Pendidikan Terakhir:<br>
+                    <label for="jenjang">SD<input type="checkbox" id="sd" name="sd">
+                    <label for="jenjang">SMP<input type="checkbox" id="smp" name="smp">
+                    <label for="jenjang">SMA/SMK<input type="checkbox" id="sma" name="sma">
+                    <label for="jenjang">KULIAH<input type="checkbox" id="kuliah" name="kuliah"><br></td>
+            <tr>
+                <td><input type="submit" value="Kirim Woy!"></td>
+            </tr>
+        </form>
+        </table>
+    </body>
+</html>
